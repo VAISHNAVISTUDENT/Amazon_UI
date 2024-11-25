@@ -1,0 +1,255 @@
+*{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    border: border-box;
+    /* background-color: #cccccc; */
+    
+}
+.navbar{
+    height: 60px;
+    background-color: #0f1111;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.navlogo{
+    height: 50px;
+    width: 135px;
+}
+.logo{
+    background-image: url("amazonlogo.png");
+    background-size: cover;
+    height: 50px;
+    width: 100%;
+    
+}
+.border{
+    border: 1.5px solid transparent;
+}
+.border:hover{
+    border: 1.5px solid white;
+}
+
+.address1{
+    color: #cccccc;
+    font-size: 0.85rem;
+    margin-left: 15px;
+    padding: 0;
+    padding-top: 0.5rem;
+}
+.address2{
+    color: #FFFFFF;
+    font-size: 1rem;
+    margin-left: 3px;
+}
+.add-icon{
+    display: flex;
+    align-items: center;
+    padding-top: 8.5px;
+    padding-bottom: 8.5px;
+    padding-left:2px ;
+    padding-right: 2px;
+}
+.navsearch{
+    display: flex;
+    background-color: pink;
+    width: 620px;
+    height: 40px;
+    border-radius: 4px;
+    justify-content: space-evenly;
+    
+}
+.search-select{
+    background-color: #f3f3f3;
+    width: 50px;
+    text-align: center;
+    border-top-left-radius :4px; 
+    border-bottom-left-radius: 4px;
+    border: none;
+}
+
+.searchbar{
+    width: 100%;
+    font-size:1rem ;
+    border: none;
+
+}
+.searchicon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    background-color: #febd68;
+    color:black ;
+    border-top-right-radius :4px; 
+    border-bottom-right-radius: 4px;
+    padding: 0.5rem;
+}
+
+span{
+    font-size: 0.7rem;
+}
+.nav-second{
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+.orange-border:hover{
+    border: 3px solid #febd68;
+}
+.nav-cart i {
+    font-size: 30px;
+
+}
+.nav-cart{
+    font-size: 0.85rem;
+    font-weight: 700;
+    display: flex;
+    align-content: center;
+    justify-content: flex-start;
+}
+.nav-bottom{
+    height: 40px;
+    background-color: #233538;
+    display: flex;
+    align-items: center;
+    color: white;
+
+}
+.box1{
+    display: flex;
+    align-items: center;
+}
+.box2{
+    display: flex;
+    align-items: center;
+}
+.box{
+    height: 35px;
+    display: flex;
+    align-items: center;
+    margin-left: 7px;
+    padding-left: 2px;
+    padding-right: 2px;
+}
+.box1 i{
+    display: flex;
+    justify-content: center;
+    margin: 2px;
+}
+.box1 i:hover{
+    transform: scale(1);
+}
+.main-bg{
+    background-image:url(Heroimage.jpg);
+    background-color: #cccccc;
+    height: 800px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+
+}
+.card-layout{
+    position: absolute;
+    top: 50%;
+    background-color:transparent;
+    height: 500px;
+    width: 100%;
+    display: flex;
+}
+.card{
+    width:33%;
+    background-color: whitesmoke;
+    height: 85%;
+    margin: 10px;
+    border: none;
+    padding: 4px;
+}
+.product{
+    padding: 15px;
+}
+.image1{
+    width: 100%;
+    background-image: url(soft\ dresses.jpg);
+    height: 250px;
+    
+}
+.text {
+    text-align: center;
+    width: 100%;
+    margin: 5px;
+}
+.text:hover{
+    text-decoration: underline;
+}
+.down{
+    margin-top: 20px;
+}
+#text{
+    color: #233538;
+}
+.image2{
+    width: 100%;
+    background-image: url(womenfashion.jpg);
+    height: 250px;
+    
+}
+.image3{
+    width: 100%;
+    background-image: url(unicorn.jpg);
+    height: 250px;
+    
+}
+.image4{
+    width: 100%;
+    background-image: url(beauty.jpg);
+    height: 250px;
+    
+}
+body{
+    background: linear-gradient(-45deg,#F8E1D9,#F8E1D9,#BAE5F0,#BAE5F0);
+    
+}
+.card-layout2{
+    background-color:transparent;
+    height: 500px;
+    width: 100%;
+    display: flex;
+    margin-top: 60px;
+}
+.strip{
+    background-color:#37475A ;
+    width: 100%;
+    height: 50px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.credits{
+  
+    height: 500px;
+    width: 100%;
+    background-color:#232F3E;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+
+
+}
+.info{
+    margin-top: 50px;
+    height: 100%;  
+}
+.info p{
+    margin-top: 10px;
+}
+.info p:hover{
+    text-decoration: underline;
+}
+
+
+
